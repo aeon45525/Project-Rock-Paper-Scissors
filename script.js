@@ -13,4 +13,19 @@ function getComputerChoice(){
     }
 }
 
-console.log(getComputerChoice())
+function getHumanChoice(){
+    let HumanChoice = prompt("Rock/Paper/Scissors: ")
+
+    if (HumanChoice === "Rock"){
+        return HumanChoice = "Rock"
+    }
+    if (HumanChoice === "Paper"){
+        return HumanChoice = "Paper"
+    }
+    if (HumanChoice === "Scissors"){
+        return HumanChoice = "Scissors"
+    }
+}
+
+let humanScore = 0
+let computerScore = 0
